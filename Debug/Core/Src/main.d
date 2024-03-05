@@ -259,9 +259,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/src/extra/widgets/imgbtn/../../../lvgl.h \
  C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/src/extra/widgets/span/lv_span.h \
  C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/src/extra/widgets/span/../../../lvgl.h \
- C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/benchmark/lv_demo_benchmark.h \
- C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/benchmark/../lv_demos.h \
- C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/benchmark/../../lvgl.h
+ C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/lv_demo_widgets.h \
+ C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/../lv_demos.h \
+ C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/../../lvgl.h \
+ C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/../widgets/lv_demo_widgets.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
@@ -523,6 +524,7 @@ C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/src/extra/widgets/
 C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/src/extra/widgets/imgbtn/../../../lvgl.h:
 C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/src/extra/widgets/span/lv_span.h:
 C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/src/extra/widgets/span/../../../lvgl.h:
-C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/benchmark/lv_demo_benchmark.h:
-C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/benchmark/../lv_demos.h:
-C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/benchmark/../../lvgl.h:
+C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/lv_demo_widgets.h:
+C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/../lv_demos.h:
+C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/../../lvgl.h:
+C:/Users/cyfin/Documents/code/stm32/DisplayTest2/Drivers/lvgl/demos/widgets/../widgets/lv_demo_widgets.h:

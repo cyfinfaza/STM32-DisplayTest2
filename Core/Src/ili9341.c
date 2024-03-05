@@ -287,10 +287,11 @@ void ILI9341_DrawBitmapDMA(uint16_t w, uint16_t h, uint8_t *s)
 
 	DC_H();
 	ConvHL(s, (int32_t)w*h*2);
-#if STM_USE_PERIPHERAL_TX_BUFFER_MPU_PROTECTION == 0
-    SCB_CleanDCache_by_Addr((uint32_t*)(((uint32_t)s) & ~(uint32_t)0x1F),
-    		w * h *2+32);
-#endif
+//#if STM_USE_PERIPHERAL_TX_BUFFER_MPU_PROTECTION == 0
+//    SCB_CleanDCache_by_Addr((uint32_t*)(((uint32_t)s) & ~(uint32_t)0x1F),
+//    		w * h *2+32);
+//#endif
+	SCB_CleanDCache();
 	HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)s, w * h *2);
 }
 
